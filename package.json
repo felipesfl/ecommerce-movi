@@ -1,0 +1,7 @@
+{
+  "name": "ecommerce-movi-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./ecommerce-movi run dev"
+  }
+}
