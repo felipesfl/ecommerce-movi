@@ -1,0 +1,1 @@
+// Página inicial (com todas as seções do layout)

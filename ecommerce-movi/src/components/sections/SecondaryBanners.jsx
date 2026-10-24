@@ -1,0 +1,1 @@
+// Grid inferior de imagens/banners de marcas (Puma, etc.)

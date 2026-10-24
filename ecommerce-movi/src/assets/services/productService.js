@@ -1,0 +1,1 @@
+// Métodos para buscar produtos, ofertas e marcas

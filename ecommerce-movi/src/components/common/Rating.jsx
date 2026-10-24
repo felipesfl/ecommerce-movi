@@ -1,0 +1,1 @@
+// Avaliações com estrelas

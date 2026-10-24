@@ -1,0 +1,1 @@
+// Seção "Ofertas do Dia"
