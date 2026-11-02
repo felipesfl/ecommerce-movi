@@ -1,1 +1,0 @@
-//Barra superior (busca, conta, carrinho)

@@ -1,1 +1,0 @@
-// Banner promocional intermediário

@@ -1,2 +1,0 @@
-// Página de listagem/categoria
-
