@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header.jsx';
 import Slider from './Slider.jsx'
 import CategoryCard from './CategoryCard.jsx'
+import ProductCards from './ProductCards.jsx'
 
 import slideImage from './assets/images/imagem_slide.png'
 import categoryImage01 from './assets/images/imagem_secao.png'
@@ -15,6 +16,7 @@ function Home(){
        <Header />
        <Slider />
        <CategoryCard />
+       <ProductCards />
 
     </>   
     );
