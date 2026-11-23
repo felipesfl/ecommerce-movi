@@ -78,6 +78,32 @@
    opacity: 0.7;
 }
 
+.action-icon{
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.actions-text{
+   display: flex;
+   flex-direction: column;
+   line-height: 1.5;
+}
+
+.text-top{
+  font-size: 12px;
+  color: var(--preto);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.text-bottom{
+  font-size: 13px;
+  color: var(--preto);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 .header-bottom{
   background-color: var(--verde_neon);
   padding: 15px 0;

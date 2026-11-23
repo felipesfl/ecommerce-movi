@@ -33,8 +33,7 @@
 
 .produto-card{
     background-color: var(--branco);
-    border: 1px solid var(--preto);
-    border-radius: 16px;
+    border: 1px solid var(--cinza);
     padding: 20px 18px 22px;
     display: flex;
     flex-direction: column;

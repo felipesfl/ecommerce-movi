@@ -23,17 +23,24 @@ const Header = () => {
                  <div className="header-actions">
                     <div className="action-item">
                         <img src={localizacaoIcone} alt="Localizacao" className="icon"/>
-                        <span>Informe seu CEP </span>
-                    </div>
-
-                    <div className="action-item cart-icon">
-                        <img src={carrinhoIcone} alt="Carrinho de compras" className="icon-large"/>
+                        <div className="actions-text">
+                           <span className='text-top'>Entrega ou retirada?</span>
+                           <strong className='text-bottom'>Informe seu CEP </strong>
+                        </div>
                     </div>
 
                     <div className="action-item">
                         <img src={userIcone} alt="Perffil do Usuario" className="icon" />
-                        <span>Entre ou Cadastre</span>
+                        <div className="actions-text">
+                           <span className='text-top'>Entre ou cadastre-se</span>
+                           <strong className='text-bottom'>Acompanhe seu o pedido</strong>
+                        </div>
                     </div>
+
+                     <div className="action-item cart-icon">
+                        <img src={carrinhoIcone} alt="Carrinho de compras" className="icon-large"/>
+                    </div>
+
                  </div>
             </div>
 

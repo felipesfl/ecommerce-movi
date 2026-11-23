@@ -8,4 +8,33 @@
   --cinza: #e3e3e3;
 }
 
+.banner-promo-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
+.banner-promo-box {
+  width: 100%;
+  height: 280px; 
+  border-radius: 16px;
+  overflow: hidden; 
+  cursor: pointer;
+}
+
+.banner-promo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+
+.banner-promo-box:hover .banner-promo-img {
+  transform: scale(1.03);
+}
 

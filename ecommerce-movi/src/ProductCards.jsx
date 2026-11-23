@@ -89,9 +89,7 @@ const ProductCards = () => {
               <p className="texto-frete">{produto.frete}</p>
             </div>
 
-            <button type="button" className="btn-comprar">
-              Comprar
-            </button>
+            <button type="button" className="btn-comprar">Comprar</button>
           </article>
         ))}
       </div>
