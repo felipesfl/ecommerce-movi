@@ -5,6 +5,7 @@ import Slider from './Slider.jsx'
 import CategoryCard from './CategoryCard.jsx'
 import ProductCards from './ProductCards.jsx'
 import CarroselMarcas from './CarroselMarcas.jsx'
+import Footer from './Footer.jsx'
 
 
 import banner01 from './assets/images/imagem_banner.png'
@@ -44,6 +45,8 @@ function Home(){
          </div>
       </div>
    </section>
+
+   <Footer />
 
     </>   
     );
