@@ -38,3 +38,42 @@
   transform: scale(1.03);
 }
 
+
+.banner-duplo-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.banner-duplo-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 20px;
+}
+
+
+.banner-duplo-card {
+  width: 100%;
+  height: 440px; 
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.banner-duplo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.banner-duplo-card:hover img {
+  transform: scale(1.03);
+}
+
+
+
+
+
