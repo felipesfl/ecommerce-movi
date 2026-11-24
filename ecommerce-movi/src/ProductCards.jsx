@@ -52,6 +52,7 @@ const produtos = [
     parcelasDestaque: '7x R$ 78,00 sem juros',
     frete: 'Frete grátis',
   },
+  
 ];
 
 const ProductCards = () => {

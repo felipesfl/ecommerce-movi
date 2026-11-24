@@ -18,7 +18,7 @@ const CarroselMarcas = () => {
         {nome: 'Joma', img: logoJoma},
     ];
 
-    const listaInfinita = [...marcas, ...marcas];
+    const listaInfinita = [...marcas, ...marcas, ...marcas];
 
     return (
         
