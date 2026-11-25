@@ -6,6 +6,7 @@ import searchIcone from './assets/images/icone_buscar.png'
 import localizacaoIcone from './assets/images/icone_localizacao.png'
 import carrinhoIcone from './assets/images/icone_carrinho.png'
 import userIcone from './assets/images/icone_usuario.png'
+import favoritoIcone from './assets/images/icone_favorito.png'
 
 const Header = () => {
     return(
@@ -40,6 +41,11 @@ const Header = () => {
                      <div className="action-item cart-icon">
                         <img src={carrinhoIcone} alt="Carrinho de compras" className="icon-large"/>
                     </div>
+
+                    <div className="action-item favorito-icon">
+                        <img src={favoritoIcone} alt="Favoritos" className="icon-large"/>
+                    </div>
+
 
                  </div>
             </div>
